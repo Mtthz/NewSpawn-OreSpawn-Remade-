@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in NewSpawn doesn't work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! You can write in English or Portuguese.
+  - type: input
+    id: version
+    attributes:
+      label: NewSpawn version
+      description: The file name you downloaded, e.g. NewSpawn v1.2.06.jar
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. Spawn a ...
+        2. Hit it with ...
+        3. ...
+  - type: input
+    id: forge
+    attributes:
+      label: Forge version
+      placeholder: 14.23.5.2859
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: A modpack name or the list of other mods you use (ProjectE, Avaritia, OptiFine...)
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or logs
+      description: Drag images or your logs/latest.log here.
