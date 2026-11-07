@@ -2,6 +2,21 @@
 
 All NewSpawn updates, newest first. Downloads: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/newspawn-oresspawn/files).
 
+## v1.2.07 (07/11/2026)
+
+### ✨ NEW
+
+- Title screen: new "!" button next to Quit Game to report bugs. It opens the NewSpawn issues page on GitHub. It can be turned off with the reportButton option in the config.
+- Girlfriend and Boyfriend are now drawn 1.6 blocks tall, matching their hitbox (the giant version is 8 blocks tall).
+
+### 🔗 ADDONS WITH OTHER MODS
+
+- HBM's NTM CE: Space: NewSpawn no longer crashes the game during startup when NTM:CE Space is installed. The planet biomes don't accept mob spawns, so NewSpawn mobs now skip them. Thanks to gdbiv for the report!
+
+### 🛠️ FIXES
+
+- Config: turning off the spawns.modBiomes option now also works for the mobs that spawn in "all biomes". With it off, they only spawn in vanilla Minecraft biomes.
+
 ## v1.2.06 (02/11/2026)
 
 ### ✨ NEW
