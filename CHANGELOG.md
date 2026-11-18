@@ -2,6 +2,15 @@
 
 All NewSpawn updates, newest first. Downloads: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/newspawn-oresspawn/files).
 
+## v1.2.08 (18/11/2026)
+
+### 🛠️ FIXES
+
+- Fixed a crash on game startup (ArrayIndexOutOfBoundsException in Biome.getSpawnableList) in big modpacks. It happened when another mod registers a new creature type too late during loading.
+- NewSpawn now safely skips creature types that Minecraft doesn't recognize, so the game loads normally.
+- The same problem could also crash the world as soon as mobs started spawning. Now the natural spawning of those unrecognized creature types is turned off instead, so the world keeps running. All other mobs (vanilla, NewSpawn and other mods) spawn normally.
+- When this happens, the log shows a warning with the name of the creature type, to help find which mod created it.
+
 ## v1.2.07 (07/11/2026)
 
 ### ✨ NEW
