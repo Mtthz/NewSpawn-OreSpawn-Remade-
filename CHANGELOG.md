@@ -2,6 +2,20 @@
 
 All NewSpawn updates, newest first. Downloads: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/newspawn-oresspawn/files).
 
+## v1.2.09 (21/11/2026)
+
+### ✨ NEW
+
+- Anvil repair: NewSpawn tools and armor can now be repaired at the anvil with the material they are made from, just like diamond tools with diamonds. Each material repairs 1/4 of the durability, and you can rename the item at the same time. Examples: ruby, amethyst, emerald, titanium or uranium ingot (Ultimate), Pink Tourmaline, Tiger's Eye, crystal planks and crystal stone, Mothra, Mobzilla, Queen and Nightmare scales, peacock feather, lava eel and lapis block.
+- Rideable pets (Young Prince, Adult Prince, Leonopteryx, Dragon and Ostrich): Shift + right-click with an empty hand now makes them sit or stand up, like the Cephadrome. Right-clicking without Shift still mounts them.
+- When you make a pet sit or stand up, a message shows above the hotbar: "<pet name>: sitting" or "<pet name>: free".
+
+### 🛠️ FIXES
+
+- Sitting pets now stay put. The Prince and The Princess no longer get up and fly after you when you walk more than 16 blocks away.
+- Girlfriend, Boyfriend, Water Dragon, Camarasaurus and Ostrich no longer leave their spot while sitting (before, they still followed food, ran away, went indoors at night or walked to attack).
+- Infinite Royal Guardian Sword: removed a stray white line that appeared next to the sword in first person. The other 3D Infinity items got the same fix.
+
 ## v1.2.08 (18/11/2026)
 
 ### 🛠️ FIXES
